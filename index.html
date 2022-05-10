@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>PC Set Web</title>
+        <!-- REMEMBER TO REMOVE -->
+        <link rel="shortcut icon" href="#">
+    </head>
+
+    <body>
+        <header>
+            <h1>PC Set Relationships</h1>
+        </header>
+        <section class="relationships">
+            <div class="neighbors">
+                <h2>Let's see how your sets are related.</h2>
+                <h3>Are They Neighbors?</h3>
+                <form class="neighbors-input">
+                    <label for="neighbors-pc-set-input">Enter a PC Set set:</label><br>
+                        <input type="text" id="neighbors-pc-set-input"><br>
+                    <label for="neighbors-pc-set-target">Enter another PC Set set:</label><br>
+                        <input type="text" id="neighbors-pc-set-target"><br>
+                        <input type="submit" value="Submit" id="neighbors-submit">
+                </form>
+                <div id="neighors-output">
+                    <p><strong>Well...are they?:</strong></p>
+                    <p id="neighbors-answer"></p>
+                    <p id="console"></p>
+                </div>
+            </div>
+            
+        </section>
+        <script type="module" src="./modules/areNeighbors.js"></script>
+    </body>
+
+</html>
