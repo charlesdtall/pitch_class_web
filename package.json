@@ -1,0 +1,25 @@
+{
+  "name": "pitch_class_web",
+  "version": "1.0.0",
+  "description": "PITCH CLASS WEB\r ===============",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha './tests/*-test.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/charlesdtall/pitch_class_web.git"
+  },
+  "author": "Charlie Tall",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/charlesdtall/pitch_class_web/issues"
+  },
+  "homepage": "https://github.com/charlesdtall/pitch_class_web#readme",
+  "devDependencies": {
+    "mocha": "^10.0.0"
+  }
+}
